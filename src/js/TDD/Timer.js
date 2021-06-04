@@ -20,7 +20,9 @@ class Timer extends React.Component {
                     <div className="displayTimer"> </div>
                 </div>
                 <div className="button_container">
-
+                      <button className="start_button" onClick={this.onClickButton.bind(this)}>Start</button>
+                        <button className="stop_button" onClick={this.onClickButton.bind(this)}>Stop</button>
+                        <button className="reset_button" onClick={this.onClickButton.bind(this)}>Reset</button>
                 </div>
                 
             </div>
