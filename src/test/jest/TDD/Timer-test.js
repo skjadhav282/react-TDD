@@ -9,10 +9,10 @@ describe("Timer", () => {
             expect(wrapper.find(".Timer_container").exists()).toEqual(true);
         })
 
-      describe("render function", () => {
-              it("check Timer Div render", () => {
-                  const wrapper = shallow(<Timer></Timer>);
-                  expect(wrapper.find(".displayTimer").exists()).toEqual(true);
-              })
-    })
+         it("check Timer Div render", () => {
+                          const wrapper = shallow(<Timer></Timer>);
+                          expect(wrapper.find(".displayTimer").exists()).toEqual(true);
+          })
+
+
 })
